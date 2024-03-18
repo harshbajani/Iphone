@@ -11,7 +11,7 @@ import * as Sentry from "@sentry/react";
 const App = () => {
   return (
     <main className="bg-black">
-      <Analytics>
+      
         <Navbar />
         <Hero />
         <Highlights />
@@ -19,7 +19,7 @@ const App = () => {
         <Features />
         <HowItWorks />
         <Footer />
-      </Analytics>
+      <Analytics />
     </main>
   );
 };
